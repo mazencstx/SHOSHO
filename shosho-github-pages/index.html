@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HAPPY BIRTHDAY SHOSHO · 21</title>
+<meta name="description" content="Happy Birthday Shosho. 21 years. مفاجأة عيد ميلادك.">
+<meta name="theme-color" content="#0010F0">
+<meta property="og:title" content="HAPPY BIRTHDAY SHOSHO · 21 YEARS">
+<meta property="og:image" content="assets/panel/ring22.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@500;700;900&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/cut/ring18.webp">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/extra.css">
+</head>
+<body class="lock">
+<canvas id="confetti"></canvas>
+
+<!-- gate -->
+<div class="gate" id="gate">
+  <div class="silk"></div>
+  <div class="gate-in">
+    <div class="disc"><img id="gateChar" src="assets/cut/ring18.webp" alt=""></div>
+    <h1>SHOSHO</h1>
+    <p>في مفاجأة مستنياكي… اضغطي عشان تفتحيها</p>
+    <button class="btn" id="openGate">افتحي المفاجأة 🎁</button>
+  </div>
+</div>
+
+<!-- hero -->
+<section class="sec blue hero" id="home">
+  <div class="silk"></div>
+  <svg class="blob" viewBox="610 -10 480 170" aria-hidden="true"><path d="M610,-10 C640,40 700,72 770,62 C830,54 852,112 920,122 C982,131 1012,102 1052,140 C1064,152 1076,158 1090,160 L1090,-10 Z"/></svg>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="pill ltr reveal">22·09·2005 → 22·09·2026</span>
+      <h1 class="reveal d1"><span>HAPPY</span><span>BIRTHDAY</span><span><i class="sh">SHOSHO</i></span></h1>
+      <div class="years reveal d2"><b data-count="21">21</b><i>YEARS</i></div>
+      <p class="sub reveal d3">كل سنة وانتي طيبة يا شوشو. 21 سنة، وليكي مفاجآت ليها عدد سنينك.</p>
+      <div class="cd reveal d3" id="cd"><div><b id="cdD">0</b><span>يوم</span></div><div><b id="cdH">0</b><span>ساعة</span></div><div><b id="cdM">0</b><span>دقيقة</span></div><div><b id="cdS">0</b><span>ثانية</span></div><span class="msg" id="cdMsg"></span></div>
+    </div>
+    <div class="hero-art" id="heroArt">
+      <div class="disc"></div>
+      <img class="hero-char pop float" data-3d="1.1" id="heroChar" src="assets/cut/ring18.webp" alt="SHOSHO" width="500" height="720">
+      <span class="burst" aria-hidden="true"><span>HAPPY<br>21</span></span>
+      <i class="st" style="top:18%;inset-inline-end:4%"></i><i class="st" style="bottom:12%;inset-inline-start:2%;width:30px;height:30px;animation-delay:.9s"></i>
+      <span class="poke">اضغطي عليا ↻</span>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="track" id="track"></div></div>
+
+<!-- 21 -->
+<section class="sec ice s21" id="s21">
+  <svg class="blob" viewBox="610 -10 480 170" aria-hidden="true"><path d="M610,-10 C640,40 700,72 770,62 C830,54 852,112 920,122 C982,131 1012,102 1052,140 C1064,152 1076,158 1090,160 L1090,-10 Z"/></svg>
+  <div class="wrap s21-grid">
+    <figure class="frame reveal tl" data-3d="0.9"><img src="assets/panel/ring22.webp" alt="عيد ميلاد شوشو" loading="lazy"><i class="st"></i></figure>
+    <div>
+      <span class="pill b reveal">21 سنة</span>
+      <h2 class="reveal d1">سنة جديدة، <mark>وأحلى</mark> منها جاية</h2>
+      <p class="lead reveal d2">النهارده مش يوم عادي. النهارده يوم شوشو. ولأنك بقيتي 21، جهّزتلك 5 هدايا مستنياكي تحت، افتحيهم واحدة واحدة.</p>
+      <div class="stats">
+        <div class="stat card reveal d1"><b data-count="21">21</b><span>سنة</span></div>
+        <div class="stat card reveal d2"><b data-count="5">5</b><span>هدايا</span></div>
+        <div class="stat card reveal d3"><b data-count="21">21</b><span>وردة</span></div>
+        <div class="stat card reveal d3"><b data-count="1">1</b><span>حبيبك بيحبك</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gifts -->
+<section class="sec paper" id="gifts">
+  <svg class="blob" viewBox="610 -10 480 170" aria-hidden="true"><path d="M610,-10 C640,40 700,72 770,62 C830,54 852,112 920,122 C982,131 1012,102 1052,140 C1064,152 1076,158 1090,160 L1090,-10 Z"/></svg>
+  <div class="wrap">
+    <div class="gifts-head"><span class="pill k reveal">GIFTS</span><h2 class="reveal d1">الهدايا <mark>بالترتيب</mark></h2><p class="reveal d2">دوسي على أي هدية عشان تفتحيها وتشوفي صورها وحكايتها.</p></div>
+    <div class="gifts" id="gifts-grid"></div>
+  </div>
+</section>
+
+
+<!-- roses -->
+<section class="sec ice" id="roses">
+  <svg class="blob" viewBox="610 -10 480 170" aria-hidden="true"><path d="M610,-10 C640,40 700,72 770,62 C830,54 852,112 920,122 C982,131 1012,102 1052,140 C1064,152 1076,158 1090,160 L1090,-10 Z"/></svg>
+  <div class="wrap">
+    <div class="gifts-head"><span class="pill b reveal">21 · 21</span><h2 class="reveal d1">21 وردة، <mark>21 كلمة</mark></h2><p class="reveal d2">كل وردة بلون وشكل مختلف، وكل وردة معاها كلمة مني ليكي. اضغطي على كل وردة، والوردة الكبيرة ليها مفاجأة.</p></div>
+    <div class="rose-count reveal">اتفتح <b id="roseN">0</b> من 20 وردة</div>
+    <div class="bouquet reveal" id="bouquet"></div>
+    <div class="rose-tray" id="roseTray" aria-live="polite"></div>
+    <div class="rose-final" id="roseFinal"><h3 id="roseGreet"></h3><div class="rose-words" id="roseAll"></div></div>
+  </div>
+</section>
+
+<!-- scenes -->
+<section class="sec blue" id="scenes">
+  <svg class="blob" viewBox="610 -10 480 170" aria-hidden="true"><path d="M610,-10 C640,40 700,72 770,62 C830,54 852,112 920,122 C982,131 1012,102 1052,140 C1064,152 1076,158 1090,160 L1090,-10 Z"/></svg>
+  <div class="wrap">
+    <div class="gifts-head"><span class="pill reveal">SCENES</span><h2 class="reveal d1">مشاهد <mark>البوكيه</mark></h2><p class="reveal d2">حرّكي الماوس (أو دوسي) على أي مشهد.</p></div>
+    <h3 class="scene-h reveal">كشف البوكيه</h3>
+    <div class="scene-row" id="rowA"></div>
+    <h3 class="scene-h reveal">بيشمها وهي مبسوطة</h3>
+    <div class="scene-row" id="rowB"></div>
+    <h3 class="scene-h reveal">الهدايا كلها مع بعض</h3>
+    <div class="scene-row wide" id="rowC"></div>
+  </div>
+</section>
+
+<!-- message -->
+<section class="sec dark" id="msg">
+  <svg class="blob" viewBox="610 -10 480 170" aria-hidden="true"><path d="M610,-10 C640,40 700,72 770,62 C830,54 852,112 920,122 C982,131 1012,102 1052,140 C1064,152 1076,158 1090,160 L1090,-10 Z"/></svg>
+  <div class="wrap msg-grid">
+    <div class="msg-card reveal tl"><span class="q" aria-hidden="true">“</span><h2 id="msgTitle"></h2><div id="msgBody"></div><div class="sig" id="msgSig"></div></div>
+    <div class="msg-art"><div class="disc"></div><img class="pop float" data-3d="1.1" id="msgChar" src="assets/cut/ring15.webp" alt="" loading="lazy"><i class="st" style="top:10%;inset-inline-end:8%;background:#fff"></i></div>
+  </div>
+</section>
+
+<!-- finale -->
+<section class="sec blue fin" id="fin">
+  <div class="silk" style="position:absolute;inset:0;background:url(assets/img/silk.jpg) center/cover;opacity:.25;mix-blend-mode:screen"></div>
+  <div class="wrap">
+    <span class="pill reveal">ALL TOGETHER</span>
+    <h2 class="reveal d1">كل الهدايا <mark>مع بعض</mark></h2>
+    <p class="reveal d2">بوكيه من 21 وردة، بعدد سنينك. وكل حاجة فيه ليكي.</p>
+    <figure class="frame reveal" data-3d="0.8"><img src="assets/panel/all07.webp" alt="كل الهدايا" loading="lazy"><i class="st"></i></figure>
+    <button class="btn reveal" id="party">🎉 طلّعي الفرحة</button>
+  </div>
+</section>
+
+
+<!-- next -->
+<section class="sec dark" id="next">
+  <svg class="blob" viewBox="610 -10 480 170" aria-hidden="true"><path d="M610,-10 C640,40 700,72 770,62 C830,54 852,112 920,122 C982,131 1012,102 1052,140 C1064,152 1076,158 1090,160 L1090,-10 Z"/></svg>
+  <div class="wrap next-wrap">
+    <span class="pill b reveal">COMING SOON</span>
+    <h2 class="reveal d1" id="nextTitle"></h2>
+    <p class="reveal d2 next-p" id="nextText"></p>
+    <div class="next-grid">
+      <div class="nx card reveal d1"><span class="lockb">قريب</span><b>📸</b><h3>كل صورنا</h3></div>
+      <div class="nx card reveal d2"><span class="lockb">قريب</span><b>🎬</b><h3>كل فيديوهاتنا</h3></div>
+      <div class="nx card reveal d3"><span class="lockb">قريب</span><b>🧑‍🎨</b><h3>كراكترات كتيرة</h3></div>
+      <div class="nx card reveal d3"><span class="lockb">قريب</span><b>🎁</b><h3>هدايا جديدة</h3></div>
+    </div>
+    <p class="next-end reveal" id="nextEnd"></p>
+    <img class="next-char pop float" data-3d="1" src="assets/cut/ring16.webp" alt="" loading="lazy">
+  </div>
+</section>
+
+<footer class="foot">Made with love by <b>Mazen</b> · for <b>Shosho</b> · 21 ♥</footer>
+
+<!-- gift modal -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="mbox" id="mbox">
+    <button class="mclose" id="mclose" aria-label="إغلاق">✕</button>
+    <div class="mgal">
+      <div class="mstage" id="mstage"></div>
+      <div class="mnav"><button id="mprev" aria-label="السابق">‹</button><div class="mdots" id="mdots"></div><button id="mnext" aria-label="التالي">›</button></div>
+    </div>
+    <div class="minfo" id="minfo"></div>
+    <img class="mchar" id="mchar" src="assets/cut/ring18.webp" alt="">
+  </div>
+</div>
+
+<script src="js/content.js"></script>
+<script src="js/main.js"></script>
+<script src="js/extra.js"></script>
+<script src="fx3d.js"></script>
+</body>
+</html>
